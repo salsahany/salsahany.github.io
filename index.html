@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a href="#home" class="navbar-brand logo">
+                Salsa Hany Saputri <span> S.Kom</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skill" class="nav-link">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="home d-flex align-items-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <div class="home-content">
+                        <h1>Hi, It's <span>Salsa</span></h1>
+                        <h3 class="text-animation">I'm a <span></span></h3>
+                        <p>Focused on building scalable web applications. Core expertise in Laravel, CI & ReactJs, with
+                            a
+                            proven agility to rapidly master new technologies and stacks as needed</p>
+                    </div>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/iamshs01/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@iamshs01"><i class="bi bi-tiktok"></i></a>
+                        <a href="https://www.linkedin.com/in/salsa-hany-saputri-50800a194/"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/salsahany"><i class="bi bi-github"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="home-img">
+                        <img src="image/profile.jpeg" alt="Profile Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content-about">
+                <h2>About Me</h2>
+                <p> I am a Software Engineer with hands-on experience building production web applications from system
+                    design to development and deployment.
+                    I primarily work with Laravel and PHP for backend development, React.js for frontend, and MySQL as
+                    the database. I am adaptable to different tech stacks when required and enjoy working on scalable,
+                    well structured systems that solve real world problems.</p>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <div class="container-fluid">
+            <h2 class="mb-5">My Project</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-5 mb-4">
+                    <div class="card h-100">
+                        <img src="image/projek1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">GoSabang</h5>
+                            <p class="card-text">GIS-Based Tourism & Hospitality Smart Discovery System (PHP,
+                                Leaflet.js)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-5 mb-4">
+                    <div class="card h-100">
+                        <img src="image/projek2.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">GPF-AgroERP</h5>
+                            <p class="card-text">GPF-AgroERP: Smart Production & Farm Management System (CodeIgniter 3)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-5 mb-4">
+                    <div class="card h-100">
+                        <img src="image/projek3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Customs Clearance</h5>
+                            <p class="card-text">INALUM Logistics Suite: Integrated Procurement & Customs Clearance
+                                System (LARAVEL 8)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-5 mb-4">
+                    <div class="card h-100">
+                        <img src="image/projek5.png" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">IDS-ERP</h5>
+                            <p class="card-text">IDS-ERP: Integrated Distribution & Financial Excellence (Laravel 12)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="posterCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-4 col-md-4 col-lg-2 mb-3">
+                                    <img src="image/D1.jpeg" class="d-block w-100 poster-img" alt="Poster Project 1">
+                                </div>
+                                <div class="col-4 col-md-4 col-lg-2 mb-3">
+                                    <img src="image/D2.jpeg" class="d-block w-100 poster-img" alt="Poster Project 2">
+                                </div>
+                                <div class="col-4 col-md-4 col-lg-2 mb-3">
+                                    <img src="image/D3.jpeg" class="d-block w-100 poster-img" alt="Poster Project 3">
+                                </div>
+                                <div class="col-4 col-md-4 col-lg-2 mb-3">
+                                    <img src="image/D4.jpeg" class="d-block w-100 poster-img" alt="Poster Project 4">
+                                </div>
+                                <div class="col-4 col-md-4 col-lg-2 mb-3">
+                                    <img src="image/D5.jpeg" class="d-block w-100 poster-img" alt="Poster Project 5">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#posterCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#posterCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+    </section>
+    <section class="skill" id="skill">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="container-skill">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/html.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/css.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/logojs.jpeg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/php.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/logoreact.jpeg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/mysql.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/laravel.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/figma.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/canva.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/coreldraw.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/photoshop.jpg" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="image/AI.png" class="img-fluid skill-icon">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm" method="POST" class="contact-form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message"
+                        required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 footer-contact">
+                    <div class="social-links text-center">
+                        <a href="https://www.instagram.com/iamshs01/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@iamshs01"><i class="bi bi-tiktok"></i></a>
+                        <a href="https://www.linkedin.com/in/salsa-hany-saputri-50800a194/"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/salsahany"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Salsa Hany Saputri</p>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
